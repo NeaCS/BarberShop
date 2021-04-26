@@ -1,0 +1,28 @@
+.navbar {
+    background-color: $erie-black;
+    padding: 70% auto;
+    font-size: $medium;
+}
+
+.navbar a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.navbar__logo {
+    height: 50px;
+    width: auto;
+}
+
+.navbar__link--active  {
+    &:hover {
+        color: $ruddy-pink;
+    }
+}
+
+
+
+

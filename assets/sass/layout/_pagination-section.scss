@@ -1,0 +1,25 @@
+.pagination-section {
+    padding: 30px;
+    background-color: $platinum;
+    text-align: center;
+    
+}
+
+.pagination-section__ul a {
+    color: $erie-black;
+
+    &:hover {
+        color: $white;
+        background-color: $raisin-black;
+    }
+}
+
+.pagination-section__ul--left {
+    border-top-left-radius: 300px !important; 
+    border-bottom-left-radius: 300px !important; 
+}
+
+.pagination-section__ul--right {
+    border-top-right-radius: 300px !important; 
+    border-bottom-right-radius: 300px !important; 
+}

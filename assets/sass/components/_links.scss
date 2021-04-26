@@ -1,0 +1,9 @@
+.article__links a {
+    color: $ruddy-pink;
+
+    &:hover {
+        text-decoration: none;
+        color: $nickel;
+    }
+}
+

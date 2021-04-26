@@ -1,0 +1,39 @@
+header {
+    margin-top: 86px;
+    height: 700px;
+    width: 100%;
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+.header__title {
+    color: $white;
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: $black;
+}
+
+@media (max-width: 767.98px) {
+    header {
+        margin-top: 86px;
+        height: 500px;
+    }
+
+    .header__title {
+        font-size: $small-text;
+        font-weight: $black;
+    }
+}
+
+@media (max-width: 991.98px) {
+    header {
+        height: 450px;
+    }
+ }
+
+

@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.buttons-section__button {
+    display: inline-block;
+    background-color: $nickel;
+    color: $white;
+    font-weight: $light;
+    font-size: $medium;
+    border: 0px;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: $light-gray;
+        color: $white;
+    }
+
+    &:focus {
+        border: 5px solid $platinum;
+        background-color: $nickel;
+    }
+    
+}
+
+.buttons-section__button--medium {
+    padding: 7px 20px;
+}
+
+.buttons-section__button--small {
+    padding: 7px 25px;
+}
+
+@media (max-width: 767.98px) {
+    .buttons-section__button{
+        font-size: $small;
+    }
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import 'vendors/bootstrap4.6/bootstrap.scss';
+
+
+//abstracts
+@import
+  'abstracts/variables';
+
+//Vendors
+//bootstrap 4.6
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/navbar',
+  'layout/header',
+  'layout/main-section',
+  'layout/article',
+  'layout/pagination-section',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/button',
+  'components/thumbnail',
+  'components/links';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';
